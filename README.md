@@ -1,26 +1,31 @@
-# Bank Customer Churn Prediction & Analysis
+# 🏦 Banking Customer Churn Prediction & Analysis
 
-## Project Overview
-End-to-end analysis of bank customer churn using SQL, Excel, and Python (optional). The project calculates total customers, total churned, churn rate percentages, and provides actionable insights.
+## 📌 Project Overview
+End-to-end data analytics project focused on predicting customer churn for a bank with **10,000+ records**. This project demonstrates a full data pipeline: **SQL** for extraction, **Python** for advanced cleaning, and **Power BI** for interactive storytelling.
 
-## Tools Used
-- **SQL** – Data extraction & queries
-- **Excel** – Pivot Tables, Charts, Dashboards
-- **Python** – pandas & matplotlib for optional analysis and visualization
+## 📊 Dashboard Preview
+## 📊 Dashboard Preview
+![Banking Churn Dashboard](Bank%20Customer%20churn%20analysis%20dashboard%20powerbi.png)
 
-## Project Structure
-bank_customer_churn_analysis/
-├── SQL/
-├── Excel/
-├── Python/ (optional)
-└── README.md
-##How to use
-1. Run SQL queries in bank_customers_queries.sql
-2. Open Excel Pivot Tables & Charts
-3. (Optional) Run Python notebook for visualization
+## 🛠️ Tech Stack & Role of Each Tool
+* **SQL:** Extracted raw data and performed initial transformations.
+* **Python (Pandas & Matplotlib):**
+    * Handled missing values and data type corrections.
+    * Performed Exploratory Data Analysis (EDA) to find correlations.
+    * Used for advanced data cleaning before importing to Power BI.
+* **Power BI:** Built a dynamic dashboard with **DAX measures** and interactive slicers.
+* **Excel:** Used for quick data validation and Pivot Table summaries.
 
-##Key insights
-- Total Customers
-- Total Churned
-- Churn Rate (%)
-- Tenure / Product wise churn patterns
+## 🚀 Key Business Insights 
+* **Churn Rate:** Identified a benchmark churn rate of **20.4%**.
+* **Age Demographics:** Discovered that the **46-60 age group** has a 50%+ churn rate, requiring urgent retention strategies.
+* **Geographic Risk:** **Germany** is a high-churn region compared to France and Spain.
+* **Financial Impact:** High-balance accounts are more likely to churn, significantly impacting the bank's total asset value.
+
+## 📂 Project Structure
+```plaintext
+├── SQL/          # Data Extraction Scripts
+├── Python/       # Data Cleaning & EDA (Jupyter Notebook)
+├── PowerBI/      # Interactive .pbix Dashboard
+├── Dataset/      # Raw and Cleaned Data
+└── README.md     # Project Documentation
