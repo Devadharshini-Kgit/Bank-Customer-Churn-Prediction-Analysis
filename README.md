@@ -22,4 +22,4 @@ End-to-end data analytics project focused on predicting customer churn for a ban
 ├── Python/       # Data Cleaning & EDA (Jupyter Notebook)
 ├── PowerBI/      # Interactive .pbix Dashboard
 ├── Dataset/      # Raw and Cleaned Data
-└── README.md     # Project Documentation ipo ok va readme la potuta
+└── README.md     # Project Documentation
