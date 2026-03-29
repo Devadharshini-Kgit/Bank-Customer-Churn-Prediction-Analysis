@@ -4,8 +4,8 @@
 End-to-end data analytics project focused on predicting customer churn for a bank with **10,000+ records**. This project demonstrates a full data pipeline: **SQL** for extraction, **Python** for advanced cleaning, and **Power BI** for interactive storytelling.
 
 ## 📊 Dashboard Preview
-## 📊 Dashboard Preview
-![Banking Churn Dashboard](Bank%20Customer%20churn%20analysis%20dashboard%20powerbi.png)
+Bank-Customer-Churn-Prediction-Analysis/Bank Customer churn analysis dashboard powerbi.png at main · Devadharshini-Kgit/Bank-Customer-Churn-Prediction-Analysis
+
 
 ## 🛠️ Tech Stack & Role of Each Tool
 * **SQL:** Extracted raw data and performed initial transformations.
