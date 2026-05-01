@@ -9,14 +9,23 @@ It demonstrates a complete data analytics workflow — from data extraction and 
 To analyze customer behavior and identify key drivers of churn in a banking environment, and provide actionable insights that can help reduce customer attrition and improve retention strategies.
 
 🛠️ Tech Stack
+
 🗄️ SQL
+
 Extracted and transformed raw banking data
+
 Built CTE-based queries for structured analysis
+
 Performed segmentation across customer attributes 
-🐍 Python (Pandas, NumPy, Matplotlib)
+
+🐍 Python (Pandas, NumPy, Matplotlib) 
+
 Data cleaning and preprocessing
+
 Missing value handling and data type corrections
+
 Exploratory Data Analysis (EDA) to identify patterns and correlations
+
 📊 Power BI
 Built interactive dashboards with KPI tracking
 Designed slicers and visual storytelling components
