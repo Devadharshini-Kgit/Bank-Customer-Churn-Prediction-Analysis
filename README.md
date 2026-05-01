@@ -1,25 +1,50 @@
-## 📌 Project Overview
-End-to-end data analytics project focused on predicting customer churn for a bank with **10,000+ records**. This project demonstrates a full data pipeline: **SQL** for extraction, **Python** for advanced cleaning, and **Power BI** for interactive storytelling.
+📌 Project Overview
 
-## 🛠️ Tech Stack & Role of Each Tool
-* **SQL:** Extracted raw data and performed initial transformations.
-* **Python (Pandas & Matplotlib):**
-    * Handled missing values and data type corrections.
-    * Performed Exploratory Data Analysis (EDA) to find correlations.
-    * Used for advanced data cleaning before importing to Power BI.
-* **Power BI:** Built a dynamic dashboard with **DAX measures** and interactive slicers.
-* **Excel:** Used for quick data validation and Pivot Table summaries.
+This project is a real-world banking analytics simulation focused on identifying customer churn patterns using 10,000+ customer records.
 
-## 🚀 Key Business Insights 
-* **Churn Rate:** Identified a benchmark churn rate of **20.4%**.
-* **Age Demographics:** Discovered that the **46-60 age group** has a 50%+ churn rate, requiring urgent retention strategies.
-* **Geographic Risk:** **Germany** is a high-churn region compared to France and Spain.
-* **Financial Impact:** High-balance accounts are more likely to churn, significantly impacting the bank's total asset value.
+It demonstrates a complete data analytics workflow — from data extraction and cleaning to exploratory analysis and interactive dashboard creation — enabling data-driven decision-making for customer retention strategies.
 
-## 📂 Project Structure
-```plaintext
-├── SQL/          # Data Extraction Scripts
-├── Python/       # Data Cleaning & EDA (Jupyter Notebook)
-├── PowerBI/      # Interactive .pbix Dashboard
-├── Dataset/      # Raw and Cleaned Data
-└── README.md     # Project Documentation
+🎯 Objective
+
+To analyze customer behavior and identify key drivers of churn in a banking environment, and provide actionable insights that can help reduce customer attrition and improve retention strategies.
+
+🛠️ Tech Stack
+ SQL
+Extracted and transformed raw banking data
+Built CTE-based queries for structured analysis
+Performed segmentation across customer attributes
+ Python (Pandas, NumPy, Matplotlib)
+Data cleaning and preprocessing
+Missing value handling and data type corrections
+Exploratory Data Analysis (EDA) to identify patterns and correlations
+ Power BI
+Built interactive dashboards with KPI tracking
+Designed slicers and visual storytelling components
+Enabled dynamic business exploration
+ Excel
+Used for quick validation and pivot-based analysis
+Assisted in cross-checking dataset consistency
+ Key Business Insights
+Overall churn rate observed: 20.4%
+Customers aged 46–60 show significantly higher churn (~50%+), identifying a high-risk segment 
+Germany region exhibits higher churn compared to other regions, indicating geographic risk concentration
+Customers with higher account balances show increased churn probability, impacting long-term revenue stability
+ Key Business Recommendations
+Implement targeted retention strategies for customers aged 46–60
+Design region-specific engagement strategies for high-churn regions like Germany
+Introduce loyalty programs for high-balance customers to improve retention
+Enhance predictive monitoring of churn-prone segments
+ Impact Simulation
+
+This analysis helps simulate how banks can:
+
+Identify at-risk customers early
+Improve retention strategies using data
+Reduce revenue loss due to customer churn
+Enable data-driven decision-making across business teams
+📂 Project Structure
+├── SQL/          # Data extraction & transformation scripts  
+├── Python/       # Data cleaning & EDA notebooks  
+├── PowerBI/      # Interactive dashboard (.pbix file)  
+├── Dataset/      # Raw and cleaned datasets  
+└── README.md     # Project documentation  
