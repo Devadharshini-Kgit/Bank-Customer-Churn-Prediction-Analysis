@@ -13,6 +13,7 @@ To analyze customer behavior and identify key drivers of churn in a banking envi
 Extracted and transformed raw banking data
 Built CTE-based queries for structured analysis
 Performed segmentation across customer attributes
+
  Python (Pandas, NumPy, Matplotlib)
 Data cleaning and preprocessing
 Missing value handling and data type corrections
